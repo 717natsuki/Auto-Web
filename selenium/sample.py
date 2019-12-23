@@ -51,14 +51,7 @@ while number < 50:
         print(number)
         browser.find_element_by_xpath(a.format(number)).click()
         print("a")
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div/div/div[2]/div/div/section/div/div/div/div[6]/div/article/div/div[2]/div[2]/div[3]/div[3]/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div/div/div[2]/div/div/section/div/div/div/div[13]/div/article/div/div[2]/div[2]/div[4]/div[3]/div
-                                         #  //*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div/div[2]/div/article/div/div[2]/div[2]/div[4]/div[3]/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div/div[3]/div/article/div/div[2]/div[2]/div[4]/div[3]/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div/div[3]/div/article/div/div[2]/div[2]/div[4]/div[3]/div/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div[1]/div/div[2]/div/div/section/div/div/div/div[2]/div/article/div/div[2]/div[2]/div[4]/div[3]/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div/div/div[2]/div/div/section/div/div/div/div[6]/div/article/div/div[2]/div[2]/div[3]/div[3]/div
-                                         # //*[@id="react-root"]/div/div/div/main/div/div/div/div/div/div[2]/div/div/section/div/div/div/div[6]/div/article/div/div[2]/div[2]/div[3]/div[3]/div
+
     except:
         print("except")
         try:
